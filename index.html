@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rating Draft</title>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass" rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+    <style>
+        .show {
+            display: none;
+        }
+    </style>
+</head>
+<body style=" height: 500px; font-family: Overpass; display: flex; flex-direction: row; justify-content: center; align-items: center;">
+<section style="width:500px ;height: 500px;" id="section1">
+    <img style="width: 60px; height: 57px " src="./images/icon-star.svg" alt="">
+    <h1>How did we do ?</h1>
+    <h5 style="font-size: 25px">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</h5>
+    <div>
+        <label for="1">1</label><input class="bullet" type="radio" name="RatingOpt" id="1" value="1">
+        <label for="2">2</label><input class="bullet" type="radio" name="RatingOpt" id="2" value="2">
+        <label for="3">3</label><input class="bullet" type="radio" name="RatingOpt" id="3" value="3">
+        <label for="4">4</label><input class="bullet" type="radio" name="RatingOpt" id="4" value="4">
+        <label for="5">5</label><input class="bullet" type="radio" name="RatingOpt" id="5" value="5">    
+    </div>
+
+    <button  id="submit">SUBMIT</button>
+    
+</section>
+
+<section style="width:500px ;height: 500px;" class="show" id="section2">
+    <img style="display:block;margin: auto;" src="./images/illustration-thank-you.svg" alt="">
+    <span style="color: orange; display: block; text-align: center;font-size: 20px; margin: 60px 30px" id="selection"></span>
+    <h1 style="text-align: center;">Thank you !</h1>
+    <h5 style="font-size: 25px; text-align: center;">We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch. </h5>
+
+
+</section>
+<script src="app.js"></script>
+</body>
+</html>
