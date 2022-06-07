@@ -3,6 +3,9 @@
     height: 50px;
     background-color: orange; 
 }
+.lab {
+    display: none;
+}
 div {
     margin: 50px;
     display: flex;
