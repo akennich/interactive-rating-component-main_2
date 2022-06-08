@@ -1,40 +1,69 @@
 .bullet {
-    width: 50px;
-    height: 50px;
-    background-color: orange; 
-}
-.lab {
     display: none;
 }
+h1 {
+    font-size: 2rem;
+    color: hsl(0, 0%, 100%);
+}
+h5 {
+    font-size: 1rem;
+    line-height: 2;
+    color: hsl(217, 12%, 63%);
+}
+.lab {
+    width: 2.5em;
+    height: 2.5em;
+    background-color: hsl(216, 12%, 54%);
+    color: hsl(217, 12%, 20%);
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lab:hover {
+    background-color: antiquewhite;
+    cursor: pointer;
+}
 div {
-    margin: 50px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-bottom: 2em;
 
 }
 button {
     color: white;
-    letter-spacing: 1.5em; 
+    letter-spacing: 1em; 
     display: block; margin: auto;
-    width: 300px;
+    width: 24rem;;
     height: 40px;
     font-size: 80%;
     border-radius: 25px;
-    background-color: orange;
+    background-color: hsl(25, 97%, 53%);
+}
+button:hover {
+    background-color: antiquewhite;
+    color: orangered;
+    cursor: pointer;
 }
 #section1 {
     border-radius: 25px;
     background-color: hsl(213, 19%, 18%);
-    padding: 20px;
-    margin-top: 50px;
+    padding: 2em;
+    width: 24rem;
+    
 }
 #section2 {
     border-radius: 25px;
     background-color: hsl(213, 19%, 18%);
-    padding: 20px;
-    margin-top: 50px;
+    padding: 2em;
+    width: 24rem;
 }
 body {
     background-color: hsl(216, 12%, 8%);
+    font-family: Overpass;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
