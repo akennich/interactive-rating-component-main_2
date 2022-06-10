@@ -40,6 +40,7 @@ button {
     font-size: 80%;
     border-radius: 25px;
     background-color: hsl(25, 97%, 53%);
+    border: none;
 }
 button:hover {
     background-color: antiquewhite;
